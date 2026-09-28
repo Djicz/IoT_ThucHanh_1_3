@@ -31,4 +31,4 @@ BÀI 3: MÔ PHỎNG HỆ THỐNG ĐIỀU KHIỂN ĐÈN THÔNG MINH QUA MQTT
   {"device_id": "light01", "status": "ON"} (hoặc "OFF")
 - Controller nhận được phản hồi trạng thái mới nhất từ thiết bị và in ra màn hình.
 - Xử lý kiểm soát lỗi khi nhập sai lệnh và hỗ trợ lệnh EXIT để thoát chương trình an toàn.
-========================================================================
+===============================================================================
