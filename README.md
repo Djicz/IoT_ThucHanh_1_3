@@ -1,12 +1,6 @@
 # BÀI 3: MÔ PHỎNG HỆ THỐNG ĐIỀU KHIỂN ĐÈN THÔNG MINH QUA MQTT
 
-## 1. Thông tin sinh viên
-- **Họ và tên:** Tên sinh viên
-- **Mã sinh viên:** Mã sinh viên
-
----
-
-## 2. Broker sử dụng
+## 1. Broker sử dụng
 - **Tên Broker:** Local Eclipse Mosquitto Broker
 - **Host / IP:** `localhost`
 - **Port:** `1883`
@@ -17,7 +11,7 @@
 
 ---
 
-## 3. Cách chạy từng chương trình
+## 2. Cách chạy từng chương trình
 
 Mở **2 cửa sổ Terminal**:
 
@@ -35,7 +29,7 @@ Mở **2 cửa sổ Terminal**:
 
 ---
 
-## 4. Kết quả đạt được
+## 3. Kết quả đạt được
 
 ### Thao tác điều khiển tại Terminal Controller:
 ```text

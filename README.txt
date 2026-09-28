@@ -2,11 +2,7 @@
 BÀI 3: MÔ PHỎNG HỆ THỐNG ĐIỀU KHIỂN ĐÈN THÔNG MINH QUA MQTT
 ========================================================================
 
-1. THÔNG TIN SINH VIÊN:
-- Họ và tên: Họ tên
-- Mã sinh viên: Mã SV
-
-2. BROKER SỬ DỤNG:
+1. BROKER SỬ DỤNG:
 - Tên Broker: Local Eclipse Mosquitto Broker
 - Host / IP: localhost
 - Cổng (Port): 1883
@@ -14,7 +10,7 @@ BÀI 3: MÔ PHỎNG HỆ THỐNG ĐIỀU KHIỂN ĐÈN THÔNG MINH QUA MQTT
   + Topic nhận lệnh điều khiển: iot/lab/light01/cmd
   + Topic phản hồi trạng thái:  iot/lab/light01/status
 
-3. CÁCH CHẠY TỪNG CHƯƠNG TRÌNH:
+2. CÁCH CHẠY TỪNG CHƯƠNG TRÌNH:
 (Mở 2 cửa sổ Terminal)
 
 - Terminal 1: Khởi động thiết bị đèn thông minh (Smart Light Device)
@@ -24,7 +20,7 @@ BÀI 3: MÔ PHỎNG HỆ THỐNG ĐIỀU KHIỂN ĐÈN THÔNG MINH QUA MQTT
   Lệnh chạy: python controller_bai3.py
   (Nhập lệnh: ON, OFF hoặc EXIT trên bàn phím)
 
-4. KẾT QUẢ ĐẠT ĐƯỢC:
+3. KẾT QUẢ ĐẠT ĐƯỢC:
 - Xây dựng thành công cơ chế giao tiếp 2 chiều (Giám sát & Điều khiển) đồng bộ qua MQTT.
 - Ứng dụng Controller gửi lệnh ON/OFF lên topic 'iot/lab/light01/cmd'.
 - Thiết bị đèn tiếp nhận lệnh, chuyển đổi trạng thái (bật/tắt) và tự động phản hồi chuỗi JSON lên topic 'iot/lab/light01/status':
